@@ -1,0 +1,39 @@
+@keyframes color-change {
+    0% {
+      color: rgb(217, 255, 0);
+    }
+  
+    50% {
+      color: rgb(0, 32, 90);
+    }
+  
+  
+    100% {
+        color: rgb(0, 32, 90);
+      }
+}
+
+body {
+    font-family: Arial, sans-serif; /* Yazı tipi ailesi */
+    font-size: 11px; /* <p></p> etiketindeki ana yazının boyutu */
+    background-color: rgb(145, 133, 0); /* Web sayfasının arka plan rengi */
+    color: #e1ff00; /* Metin rengi */
+    text-decoration-color: rgb(0, 233, 250);
+    border: #ff0000;
+    
+}
+
+h2 {
+
+    animation: color-change 3s infinite;
+    color: #00a800; /* Başlık rengi */
+    font-size: 24px; /* Başlık yazı tipi boyutu */
+    font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
+}
+li {
+
+    animation: color-change 3s infinite;
+    color: #00a800; /* Başlık rengi */
+    font-size: 24px; /* Başlık yazı tipi boyutu */
+    font-family: Georgia, serif; /* Başlıkta kullanılan yazı tipi ailesi */
+}
